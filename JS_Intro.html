@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>JS Intro</title>
+    <script>
+        function print() {
+            alert("Welcome to Edureka...");
+        }
+    </script>
+    <script type="text/javascript" src="introme.js"></script>
+</head>
+
+<body>
+    <script>
+        alert("Welcome to Edureka OnLoad...");
+    </script>
+    <button onclick="print()">Click Me !!!</button>
+    <button onclick="external_exec()">External Execution !!!</button>
+    <div>
+        <button onclick="consoleOutput()">Console</button>
+        <button onclick="alerts()">Alert</button>
+        <button onclick="inner()">Inner HTML</button>
+        <button onclick="doc()">Document</button>
+        <button onclick="printName()">Print Name</button>
+
+        <h1 id="one">Hi</h1>
+
+        <div id="two">
+            <span>Entry 1</span><span onclick="deleteOption()" class="fa fa-trash"></span>
+        </div>
+    </div>
+</body>
+
+</html>
